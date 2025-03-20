@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/kvnen/Documents/Cpp2025/testing/build",
+  "command": "/sbin/c++   -std=gnu++17 -o CMakeFiles/hello.dir/main.cpp.o -c /home/kvnen/Documents/Cpp2025/testing/main.cpp",
+  "file": "/home/kvnen/Documents/Cpp2025/testing/main.cpp",
+  "output": "CMakeFiles/hello.dir/main.cpp.o"
+}
+]
