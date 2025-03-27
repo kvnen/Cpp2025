@@ -1,9 +1,3 @@
 # Cpp2025
-<<<<<<< HEAD
 
----
-
-hello!
-=======
-# Hello!
->>>>>>> 43a3960 (lecture on 20.3)
+This repository is for the Microcontrollers and Programming C++ class.
