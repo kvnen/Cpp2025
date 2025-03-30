@@ -40,28 +40,28 @@ int checkReq(std::string input){
 	bool lowercase = false;
 	bool digit = false;
 	bool symbol = false;
-for (int i = 0; i < input.size(); i++){
-	//check all requirements for each character and set their respective bools to true if it meets requirements
-	if (isUppercase(input[i])){uppercase = true;}
-	
-	if (isLowercase(input[i])){lowercase = true;}
+	for (int i = 0; i < input.size(); i++){
+		//check all requirements for each character and set their respective bools to true if it meets requirements
+		if (isUppercase(input[i])){uppercase = true;}
 
-	if (isDigit(input[i])){digit = true;}
+		if (isLowercase(input[i])){lowercase = true;}
 
-	if (isSymbol(input[i])){symbol = true;}
-	// if all 4 requirements are met return a 1
-	if (uppercase && lowercase && digit && symbol){return 1;}
-}
-return 0;
+		if (isDigit(input[i])){digit = true;}
+
+		if (isSymbol(input[i])){symbol = true;}
+		// if all 4 requirements are met return a 1
+		if (uppercase && lowercase && digit && symbol){return 1;}
+	}
+	return 0;
 }
 
 int main(void){
-	
+
 	// create the password variable called PW and ask the user for input
 	std::string PW;
 	std::cout << "Give a password: ";
 	std::cin >> PW; 
-	
+
 	//check if password meets length and symbol requirements and act accordingly
 	if (PW.size() < MIN_LENGTH || !checkReq(PW)){
 		std::cout << "Weak Password" << std::endl;
@@ -71,7 +71,7 @@ int main(void){
 		std::cout << "Strong Password" << std::endl;
 		return 0;
 	}
-	
-	
+
+
 
 }
