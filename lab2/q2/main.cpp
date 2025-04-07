@@ -40,7 +40,7 @@ int main(void){
 	//this is the best. no need to do anything funny
 	swapref(x,y);
 	std::cout << "swap with ref: " << x << " " << y << std::endl;
-	//here need to pass in references instead of just integers but it's fine.
+	//here need to pass in references instead of just integers
 	swappoint(&x,&y);
 	std::cout << "swap with pointer : " << x << " " << y << std::endl;
 	return 0;
