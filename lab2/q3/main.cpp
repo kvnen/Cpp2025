@@ -1,12 +1,13 @@
 #include <iostream> 
 
 
+
 int main(void){
 	//defining variables.
-	int x;
-	int y;
+	float x;
+	float y;
 	char op = ' ';
-	int z;
+	float z;
 	//prompting user to give input and storing it in variables.
 	std::cout << "give number: ";
 	std::cin >> x;
