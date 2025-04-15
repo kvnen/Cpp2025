@@ -23,4 +23,5 @@ int main(void){
 	//std::cout << book1.title << std::endl;
 	book1.publisher = "test";
 	std::cout << book1.publisher << std::endl;
+	book1.displayAuthorInfo();
 }
