@@ -49,7 +49,7 @@ class ElectricCar : public Car {
 			std::cout << "brand: " << brand << ", year: " << year << ", number of doors: " << getnumDoors() << ", battery capacity: " << batteryCapacity << std::endl;
 		}
 
-		void startEngine() override {
+		void startEngine(int i) override {
 			std::cout << "Electric engine is starting... silent but powerful" << std::endl;
 		}
 };
